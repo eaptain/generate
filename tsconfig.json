@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "sourceRoot": "src",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "src/generate.ts"
+  ]
+}

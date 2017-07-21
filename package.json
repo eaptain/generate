@@ -1,0 +1,22 @@
+{
+  "name": "eaptain-generate",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/eaptain/generate.git",
+  "author": "I'amee <admin@cavacn.com>",
+  "license": "MIT",
+  "bin": "dist/generate.js",
+  "dependencies": {
+    "@types/yargs": "^8.0.1",
+    "cpr": "^2.2.0",
+    "eaptain-getport": "^3.1.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eaptain-proxy": "^0.0.3"
+  },
+  "scripts": {
+    "compile": "rm -rf dist && tsc -d",
+    "prepublish": "npm run compile"
+  }
+}
